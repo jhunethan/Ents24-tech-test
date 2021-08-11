@@ -8,7 +8,7 @@ function generateVenueURI(town, venue) {
     let formattedString = "";
     formattedString = string.trim();
     formattedString = formattedString.toLowerCase();
-    formattedString = formattedString.replaceAll(" ", "-");
+    formattedString = formattedString.replace(/ /g, '-');
 
     return formattedString;
   }
