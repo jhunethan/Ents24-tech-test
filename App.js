@@ -8,10 +8,9 @@ function generateVenueURI(town, venue) {
     return string.trim().toLowerCase().replace(/ /g, '-');
   }
 
-  const formattedTown = normaliseString(town);
-  const formattedVenue = normaliseString(venue);
+  const badVariable;
 
-  return `/${formattedTown}-events/${formattedVenue}`;
+  return ''
 }
 
 function checkVenue() {
