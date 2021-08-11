@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "check": "node -e 'require(`./App`).checkVenue()'",
+    "check": "run(){ node -e 'require(`./App`).checkVenue()'; }; run",    
     "test": "jest"
   },
   "repository": {
