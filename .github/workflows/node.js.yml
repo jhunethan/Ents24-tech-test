@@ -32,5 +32,8 @@ jobs:
     - name: Installing Dependancies
       run: npm i
       
+    - name: Running eslint checks
+      run: npm test
+      
     - name: Running tests
       run: npm test
