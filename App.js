@@ -5,12 +5,7 @@ function generateVenueURI(town, venue) {
 
   function normaliseString(string) {
     if (!string) return "";
-    let formattedString = "";
-    formattedString = string.trim();
-    formattedString = formattedString.toLowerCase();
-    formattedString = formattedString.replace(/ /g, '-');
-
-    return formattedString;
+    return string.trim().toLowerCase().replace(/ /g, '-');
   }
 
   const formattedTown = normaliseString(town);
