@@ -8,6 +8,8 @@ function generateVenueURI(town, venue) {
     return string.trim().toLowerCase().replace(/ /g, '-');
   }
 
+  const badVariable;
+
   return ''
 }
 
