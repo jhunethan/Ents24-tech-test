@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "check": "node -e 'require(`./App`).checkVenue()'",
     "test": "jest"
   },
   "repository": {
@@ -18,6 +19,7 @@
   },
   "homepage": "https://github.com/jhunethan/Ents24-tech-test#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "jest": "^27.0.6"
   }
 }
